@@ -16,7 +16,7 @@ export default function Home() {
         <main className="flex min-h-screen flex-col items-center justify-between p-12">
           <div className="flex flex-col items-center justify-center mt-16 text-xl">
             <span className="font-bold text-xl">CA </span>
-            DXoCtULBTgPjiumU4ZVr4K4BtUWtrPoZMUhX3gG1Fezf
+            theCACACACACACACACA
           </div>
 
           <div className="flex flex-col items-center justify-center mt-16">
