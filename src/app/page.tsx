@@ -6,8 +6,9 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const TWITTER_URL = "https://x.com/sureabouthatsol";
 const TELEGRAM_URL = "https://t.co/4UISwX8EnZ";
-const PUMP_URL = "https://pump.fun";
-const CA_ADDRESS = "comingsoon";
+const PUMP_URL =
+  "https://pump.fun/C61cA2s9cGjuWVU4nv4Ft9KMNjph9pXKspYTbHwLpump";
+const CA_ADDRESS = "C61cA2s9cGjuWVU4nv4Ft9KMNjph9pXKspYTbHwLpump";
 
 const BLURB = `The 'You sure about that?' meme comes from one of the sketches in
 Tim Robinson's Netflix special, "I Think You Should Leave." It was
@@ -70,7 +71,7 @@ export default function Home() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href={`${PUMP_URL}`}
                   className="text-gray-100 hover:text-gray-300 transition-colors duration-300 text-xl font-white"
                 >
                   DEX (soon)
