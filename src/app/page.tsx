@@ -24,7 +24,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center mt-16 text-xl">
             <a
               href={`${PUMP_URL}`}
-              className="text-4xl font-bold text-yellow-300 hover:text-yellow-900 transition duration-300 ease-in-out"
+              className="text-2xl font-bold text-yellow-300 hover:text-yellow-900 transition duration-300 ease-in-out w-auto overflow-hidden whitespace-nowrap text-ellipsis"
             >
               CA: {`${CA_ADDRESS}`}
             </a>
@@ -74,7 +74,7 @@ export default function Home() {
                   href={`${PUMP_URL}`}
                   className="text-gray-100 hover:text-gray-300 transition-colors duration-300 text-xl font-white"
                 >
-                  DEX (soon)
+                  DEX
                 </Link>
               </li>
             </ul>
