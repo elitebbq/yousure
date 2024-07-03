@@ -9,6 +9,10 @@ const TELEGRAM_URL = "https://t.co/4UISwX8EnZ";
 const PUMP_URL = "https://pump.fun";
 const CA_ADDRESS = "comingsoon";
 
+const BLURB = `The 'You sure about that?' meme comes from one of the sketches in
+Tim Robinson's Netflix special, "I Think You Should Leave." It was
+crowned a top 10 meme of 2023 and 2024 on TikTok.`;
+
 export default function Home() {
   return (
     <div className="relative w-full h-screen font-white">
@@ -26,11 +30,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col items-center justify-center mt-16">
-            <p className="text-center max-w-96">
-              The 'You sure about that?' meme comes from one of the sketches in
-              Tim Robinson's Netflix special, "I Think You Should Leave." It was
-              crowned a top 10 meme of 2023 and 2024 on TikTok.
-            </p>
+            <p className="text-center max-w-96">{BLURB}</p>
           </div>
 
           <div className="flex flex-col items-center justify-center mt-16">
